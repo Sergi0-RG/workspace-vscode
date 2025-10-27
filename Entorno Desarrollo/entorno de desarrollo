@@ -1,0 +1,16 @@
+var prompt = require ('prompt-sync')();
+
+let edad = prompt ('introduzca la edad');
+console.log(typeof(edad));
+console.log(edad);
+
+if (edad >= 18){
+   let carnet = prompt ('¿tiene carnet de conducir? (s/n)');
+   if (carnet === 's'){
+      console.log('puedes conducir'); }
+    else {
+      console.log('no puedes conducir'); }
+}
+ else {
+   console.log('no tienes >18 años'); 
+}
