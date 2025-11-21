@@ -1,0 +1,40 @@
+const prompt = require('prompt-sync')();
+let personas = prompt('Introduce numero de personas: ');
+let contador = 0;
+while (personas>contador){
+let puesto = prompt('Introduce puesto de trabajo: ');
+let turno = prompt('Introduce turno: ');
+let horas = prompt('Introduce las horas trabajadas en la semana: ');
+if (puesto === "licenciado"){
+    if (turno ==="primero"){
+        console.log('El salario es de '+(horas*100+200)+"€");
+    }else if (turno ==="segundo"){
+        console.log('El salario es de '+(horas*100+100)+"€");
+    }else if(turno ==="tercero"){
+        console.log('El salario es de '+(horas*100+300)+"€");
+
+    }
+
+
+}else if (puesto ==="técnico"){
+  if (turno ==="primero"){
+        console.log('El salario es de '+(horas*50+200)+"€");
+    }else if (turno ==="segundo"){
+        console.log('El salario es de '+(horas*50+100)+"€");
+    }else if(turno ==="tercero"){
+        console.log('El salario es de '+(horas*50+300)+"€");
+    }
+
+}else if (puesto ==="obrero"){
+  if (turno ==="primero"){
+        console.log('El salario es de '+(horas*30+200)+"€");
+ }else if (turno ==="segundo"){
+        console.log('El salario es de '+(horas*30+100)+"€");
+    }else if(turno ==="tercero"){
+        console.log('El salario es de '+(horas*30+300)+"€");
+    }
+
+}
+contador++;
+}
+print 
