@@ -4,7 +4,7 @@ const prompt = require('prompt-sync')();
 function leervotosconvalidacion (candidato ) {
     let num ;
     do {
-        num = Number(prompt(`introduzca votos del candidato ${candidato}: `));
+        num = Number(prompt(`introduzca votos del candidato${ candidato}: `));
         if (Number.isNaN(num)) {
         console.log('formato de número de votos incorrecto');
             }
