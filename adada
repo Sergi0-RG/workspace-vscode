@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Flywheel</title>	
+    </head>
+	<body>
+		<header>
+				<a href="#">
+					<img src="images/logo.jpg" alt="Flywheel logo">
+				</a>
+			<h1>Flywheel</h1>
+			<nav>
+				<ul>
+					<li><a href="">Acerca de</a></li>
+					<li><a href="">Funciones</a></li>	
+					<li><a href="">Proyectos</a></li>
+					<li><a href="">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section>
+				<h2>Tu vehículo cuando lo necesites</h2>
+				<img src="images/coches aparcados.jpg" alt="Imagen principal de vehículos" />
+			</section>
+
+			<section>
+				<h2>Nuestra flota</h2>
+				<div>
+					<figure>
+						<img src="images/COCHE.jpg" alt="Coche modelo 1">
+					</figure>
+					<figure>
+						<img src="images/COCHE2.jpg" alt="Coche modelo 2">
+					</figure>
+					<figure>
+						<img src="images/COCHE3.jpg" alt="Coche modelo 3">
+					</figure>
+					<figure>
+						<img src="images/COCHE4.jpg" alt="Coche modelo 1">
+					</figure>
+				</div>
+			</section>
+
+			<section>
+				<h2>Alquila tu vehículo en el aeropuerto</h2>
+				<p>
+					En Flywheel te ofrecemos autos modernos, precios competitivos y atención 24/7 para que tu viaje comience sin estrés.
+				</p>
+				<p> 
+					Estamos presentes en los principales aeropuertos del mundo. Los pasos que tienes que seguir para alquilar un vehículo son:
+				</p>
+				<p>
+					1. Reserva en línea
+				</p>
+				<p>
+					2. Recoge tu vehículo en el aeropuerto
+				</p>
+				<p>
+					3. Conduce y disfruta
+				</p>
+				<img src="images/bmw.jpg" alt="Imagen ilustrativa sobre la compañía">
+			</section>
+
+		</main>
+		<footer>
+			<section>
+				<h3>Legal</h3>
+				<nav>
+					<ul>
+						<li><a href="#">Términos y condiciones</a></li>
+						<li><a href="#">Política de privacidad</a></li>
+						<li><a href="#">Política de cookies</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</nav>
+			</section>
+
+		<section>
+			<h3>Información de contacto</h3>
+			<address>
+				<address>
+					<p>Tel: <a href="tel:+32734547456">+32 734 54 74 56</a></p>
+					<p>Email: <a href="mailto:	support@flywheel.com">support@flywheel.com</a></p>
+				</address>
+			</address>
+		</section>
+
+		<section>
+				<h3>Join our mailing list</h3>
+				<form action="#" method="post" aria-label="Formulario de suscripción">
+					<label for="email">Email *</label>
+					<input type="email" id="email" name="email" required>
+					<button type="submit">Subscribe</button>
+				</form>
+		</section>
+
+		<section>
+			<p>
+				Flyheel ofrece servicios de alquiler de vehículos de marcas premium como Brabus, Opel, Nissan, BMW y Toyota. Conduce con estilo, seguridad y confort.
+			</p>
+			<a href="">
+			<img src="images/logo.jpg" alt="Flywheel logo">
+			</a>
+		</section>
+
+	    <section>
+       		<a href="https://www.instagram.com">
+				<img src="images/instagram.jpg" alt="Instagram de Flywheel">
+			</a>
+			<a href="https://tripadvisor.com">
+				<img src="images/tripadvisor.jpg" alt="tripadvisor de Flywheel">
+			</a>
+			<a href="https://www.youtube.com">
+				<img src="images/youtube.jpg" alt="youtube de Flyheel">
+			</a>
+			<a href="https://www.tiktok.com">
+				<img src="images/tiktok.jpg" alt="tiktok de Flyheel">
+			</a>
+	</section>
+
+	<section>
+        <p>© 2025 Flywheel. Todos los derechos reservados.</p>
+    </section>
+</footer>
+	</body>
+</html>

@@ -1,7 +1,8 @@
 const prompt = require('prompt-sync')();
 
 let n = +prompt("¿Cuántos trabajadores quieres registrar? ");
-
+let salarioMaximo =0;
+let totalsalario=0;
 for (let i = 1; i <= n; i++) {
     console.log("Trabajador "+i+":");
 
@@ -15,7 +16,7 @@ for (let i = 1; i <= n; i++) {
     } else if (puesto === "técnico") {
         tarifa = 50;
     } else if (puesto === "obrero") {
-        tarifa = 30;
+        tarifa = 30;    
     } else {
         console.log("Puesto no válido.");
     }
@@ -30,8 +31,13 @@ for (let i = 1; i <= n; i++) {
     } else {
         console.log("Turno no válido");
     }
-
     let salario = (tarifa * horas) + bono;
 
+    if (salario > salarioMaximo) {
+        salarioMaximo = salario;
+    }
+    totalsalario +=totalsalario;
     console.log("Salario semanal del trabajador "+i+ "es de:" +salario+ "€");
 }
+    console.log('El salario Maximo es de: '+salarioMaximo);
+    console.log('La media del salario es: '+(totalsalario/2));
